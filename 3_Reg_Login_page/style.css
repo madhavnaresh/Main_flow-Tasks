@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: pink;
+    width: 100vw;
+    height: 100vh;
+}
+.form{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.detail{
+    width: 30vw;
+    height: 50vh;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 4%;
+}
+.reg{
+    background-color: aqua;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+.labels{
+    height:35vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    align-items: start;
+    align-content: flex-start;
+    background-color: yellowgreen;
+}
+.lbl{
+    display: flex;
+    width: fit-content;
+    /* background-color: blueviolet; */
+    font-size: x-large;
+}
+input{
+    border: 2px solid blue;
+    width: fit-content;
+    width: 28vw;
+    height: 5vh;
+}
