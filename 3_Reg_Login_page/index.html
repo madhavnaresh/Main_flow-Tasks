@@ -4,34 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration</title>
+    <title>Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="form">
-        <div class="detail">
-            <div class="reg">
-                -: Registration Form :-
-            </div>
-            <div class="labels">
-                <div class="lbl">
-                    <label for="">Username</label>
+    <div class="container">
+        <div class="box form-box">
+            <header>Login</header>
+            <form action="" method="post">
+                <div class="field input">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" required>
                 </div>
-                <input type="text">
-                <div class="lbl">
-                    <label for="">E-mail</label>
+                <div class="field input">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
                 </div>
-                <input type="text">
-                <div class="lbl">
-                    <label for="">Password</label>
+                <div class="field">
+                    <input type="Submit" name="submit" value="Login" required>
                 </div>
-                <input type="text">
-                <div class="lbl">
-                    <label for="">Re-type Password</label>
+                <div class="links">
+                    Don't have an account? <a href="register.html">Sign Up Now</a>
                 </div>
-                <input type="text">
-            </div>
+            </form>
         </div>
     </div>
 </body>
