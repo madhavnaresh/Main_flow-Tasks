@@ -40,7 +40,7 @@ button{
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 50%;
     border: 1px solid #ccc;
 }
 #display{
@@ -54,4 +54,36 @@ button{
     border: 1px solid gray;
     border-radius: 4px;
     text-align: right;
+}
+button:hover{
+    background-color: white;
+}
+.AC{
+    background-color:#ad7d8e;
+    color: white;
+}
+.AC:hover{
+    background-color: rgb(200, 35, 35);
+    color: white;
+}
+.equal{
+    background-color:#ad7d8e;
+    color: white;
+}
+.equal:hover{
+    color: white;
+    background-color: green;
+}
+.operator{
+    color: white;
+    font-weight: 900;
+    background-color:#ad7d8e;
+}
+.operator:hover{
+    color: #ad7d8e;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
 }
